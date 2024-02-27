@@ -69,7 +69,9 @@ section > img {
 footer {
     text-align: center;
     font-weight: bolder;
+    font-size: 13px;
     color: beige;
     font-style: italic;
+    margin-bottom: 300px;
 }
 

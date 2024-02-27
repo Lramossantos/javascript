@@ -22,6 +22,16 @@ function verificar() {
             }               
         } else if (fsex[1].checked) {
             gênero = "Mulher"
+            img.src = "mulher.jpg"
+            if (idade < 16) {
+                gênero = "Criança"
+                img.src = "criança.jpg"
+            } else if (idade > 64) {
+                gênero = "Idosa"
+                img.src = "idosa.jpg"
+            } else {
+                
+            }
         }
         res.innerHTML = `Detectamos ${gênero} com ${idade}`
     }
