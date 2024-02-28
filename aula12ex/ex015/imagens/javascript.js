@@ -34,6 +34,7 @@ function verificar() {
             }
         }
         res.innerHTML = `Detectamos ${gênero} com ${idade}`
+        
     }
         
 
